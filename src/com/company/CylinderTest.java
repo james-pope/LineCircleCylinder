@@ -1,4 +1,4 @@
-/*
+package com.company;
 public class CylinderTest {
     public static void main(String[] args) {
 
@@ -15,4 +15,3 @@ public class CylinderTest {
         System.out.println("surface area = " + sa);
     }
 }
-*/
