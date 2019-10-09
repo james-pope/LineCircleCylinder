@@ -16,15 +16,14 @@ public class Line {
         end2 = new Point();
     }
 
-    public double distance()
+    public double distance()        //distance of a line formula
     {
         double p1 = Math.pow(end2.getX() - end1.getX(), 2);
         double p2 = Math.pow(end2.getY() - end1.getY(), 2);
         double dist = Math.sqrt(p1 + p2);
         return dist;
-        //You may find Math.pow(base, power) and Math.sqrt(num) useful
     }
-    public Point midpoint()
+    public Point midpoint()         //midpoint of a line formula
     {
         double x = (end1.getX() + end2.getX())/2;
         double y = (end1.getY() + end2.getY())/2;
@@ -40,7 +39,7 @@ public class Line {
         return Math.abs(d1-d2) <= .001;
     }
 
-    public double slope()
+    public double slope()       //slope of a line formula
     {
         double m;
         m = (end2.getY()-end1.getY())/(end2.getX()-end1.getX());

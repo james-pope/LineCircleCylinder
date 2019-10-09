@@ -4,14 +4,14 @@ public class Circle {
 
     private double radius;
 
-        public Circle(double r){
+        public Circle(double r){        //initializes radius
             radius = r;
         }
-        public double area(){
+        public double area(){       //area of a circle formula
             double a = radius*radius;
             return Math.PI * a;
         }
-        public double circumference(){
+        public double circumference(){      //circumference of a circle formula
             double a = 2 * Math.PI * radius;
             return a;
         }
