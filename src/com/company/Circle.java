@@ -16,7 +16,6 @@ public class Circle {
             return a;
         }
 
-
     public static void main(String [] args){
             Circle cir1 = new Circle(2);
             Circle cir2 = new Circle(5);
@@ -26,6 +25,5 @@ public class Circle {
             double circumference1 = cir2.circumference();
             System.out.println();
             System.out.print(circumference1);
-
         }
 }
